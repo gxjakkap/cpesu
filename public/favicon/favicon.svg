@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 1920 1920" width="1920" height="1920"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #414042;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #80a8d9;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="1920" height="1920"></rect>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="98.92" y1="931.69" x2="692.54" y2="931.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb43e"></stop>
+      <stop offset="1" stop-color="#f15624"></stop>
+    </linearGradient>
+  </defs><rect class="cls-5" width="1920" height="1920"></rect><g id="Penguin">
+    <g class="cls-6">
+      <g>
+        <path class="cls-4" d="M550.34,1090.83l142.26-89.64c-154.97-374.82,464.78-512.27,569.36-139.06,73.34,274.19-160.43,464.58-412.83,453.48,0,0-156.59-133-298.79-224.79Z"></path>
+        <circle class="cls-2" cx="918.74" cy="877.45" r="72.21"></circle>
+        <path class="cls-2" d="M692.54,1001.21c-154.97-374.82,464.78-512.27,569.36-139.06,73.34,274.19-160.43,464.58-412.83,453.48,130.39,141.77,193.81,287.04,216.67,344.06h-.01c244.03,461.7-57.14,1254.35,608.63,1511.62,4.08,1.58,8.7,1.14,12.42-1.16h0c5.31-3.27,7.79-9.66,6.11-15.67-84.46-300.49-128.16-618.69-39.04-923.83,1.11-3.79,4.28-6.64,8.16-7.37h0c6.97-1.3,13.14,4.57,12.24,11.61-43.43,339.6,12.28,685.55,120.67,1008.98,5.2,15.53-7.3,31.27-23.61,29.8l-.47-.04h0c-191.48-44.4-369.41-216.55-383.64-230.56-106.89-116.84-184.62-276.79-226.72-471.6-25.85-119.63-31.27-240-36.51-356.41-4.46-99-8.81-195.03-24.94-287.88v308.31c0,437.17,94.43,774.02,303.66,1015.39.17.21.33.42.49.63,161.91,203.52,433.8,303.88,433.8,303.88,0,0,.01-.02.01-.03,159.14,66.68,346.28,112.66,563.64,138.37-357.79-371.53-190.49-1017.85-295.78-1487.62-68.41-305.2-274.06-548.34-315.17-851.21C1809.72,542.38,1027.31,23.49,483.24,772.56l209.3,228.65Z"></path>
+        <path class="cls-3" d="M483.24,772.56c-147.88,7.27-336.61,50.12-384.32,212.71,102.34.76,270.79,16.4,451.42,105.55l142.2-89.62"></path>
+      </g>
+    </g>
+  </g><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

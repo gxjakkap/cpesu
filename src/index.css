@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #526ab3;
+  --color-secondary: #80a8d9;
+  --font-sans: "Prompt", ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  font-family: "Prompt", ui-sans-serif, system-ui, sans-serif;
+}
