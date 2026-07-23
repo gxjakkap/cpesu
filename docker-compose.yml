@@ -1,0 +1,17 @@
+services:
+  web:
+    image: ghcr.io/gxjakkap/cpesu:main
+    restart: unless-stopped
+    pull_policy: always
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: tunnel run --protocol http2
+    environment:
+      TUNNEL_TOKEN: ${CF_TUNNEL_TOKEN:?CF_TUNNEL_TOKEN is required}
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 5s
