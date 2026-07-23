@@ -44,7 +44,7 @@ export default function App() {
     <main className="min-h-screen bg-primary flex items-center justify-center p-6">
       <div className="flex flex-col items-center gap-6 text-white max-w-sm w-full">
         <img
-          src="/SVG/CPESU_logo_white_EN.svg"
+          src="/CPESU_logo_white_EN.svg"
           alt="Computer Engineering Student Union"
           className="w-56 sm:w-64"
         />
