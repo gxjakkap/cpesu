@@ -1,4 +1,4 @@
-import { FileTextIcon, PackageOpenIcon } from "lucide-react";
+import { CalendarDaysIcon, FileTextIcon, PackageOpenIcon, ShoppingCartIcon } from "lucide-react";
 
 const FacebookIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="size-6 shrink-0">
@@ -13,6 +13,19 @@ const InstagramIcon = () => (
 );
 
 const links = [
+  {
+    label: "พรีออเดอร์เสื้อ\nCPE Open House 2026",
+    href: "https://shop.cpesu.com/product/cpe-open-house-2026-t-shirt/",
+    Icon: () => <ShoppingCartIcon className="size-6 shrink-0" />,
+    textColor: "text-[#000000]",
+    glow: true,
+  },
+  {
+    label: "กิจกรรม CPE Open House 2026",
+    href: "https://engopenhouse.kmutt.ac.th/activities?depts=CPE",
+    Icon: () => <CalendarDaysIcon className="size-6 shrink-0" />,
+    textColor: "text-[#000000]",
+  },
   {
     label: "Facebook",
     href: "https://facebook.com/student.cpe.kmutt",
@@ -52,17 +65,18 @@ export default function App() {
         {/* <div className="w-24 h-0.5 bg-white/30 rounded-full" /> */}
 
         <div className="flex flex-col gap-4 w-full">
-          {links.map(({ label, href, Icon, textColor }) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`flex items-center gap-4 px-6 py-4 rounded-2xl bg-white backdrop-blur-sm border border-white/20 font-medium text-lg tracking-wide transition-all duration-300 ${textColor} hover:border-transparent hover:scale-[1.02] hover:shadow-xl`}
-            >
-              <Icon />
-              {label}
-            </a>
+          {links.map(({ label, href, Icon, textColor, glow }) => (
+            <div key={label} className={glow ? "glow" : undefined}>
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`relative flex items-center whitespace-pre-line gap-4 px-6 py-4 rounded-2xl bg-white backdrop-blur-sm border border-white/20 font-medium text-lg tracking-wide transition-all duration-300 ${textColor} hover:border-transparent hover:scale-[1.02] hover:shadow-xl`}
+              >
+                <Icon />
+                {label}
+              </a>
+            </div>
           ))}
         </div>
 
